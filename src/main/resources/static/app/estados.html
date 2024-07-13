@@ -87,7 +87,7 @@
   
      function preencher (id_estado, nome_estado){
         document.getElementById("tx_id").value = id_estado;
-        document.getElementById("tx_nome").value = nome_estado;
+        document.getElementById("tx_nome").value = decodeURI(nome_estado);
      }
 
 	    function carregar(){
@@ -98,7 +98,7 @@
         var conteudo ="";
         for(var estado of dados){
             conteudo += "<tr> <td>" + estado.id + " </td> <td>"+ estado.nome + "</td>";
-            conteudo += "<td> <button type='button'class='btn me-2 btn-secondary btn-sm' onclick=preencher('"+ estado.id +"','"+ estado.nome +"')>Alterar</button>";
+            conteudo += "<td> <button type='button'class='btn me-2 btn-secondary btn-sm' onclick=preencher('"+ estado.id +"','"+ encodeURI(estado.nome) +"')>Alterar</button>";
             conteudo += "<button type='button'class='btn btn-secondary btn-sm' onclick='excluir("+ estado.id +")'>Excluir</button></td></tr>";
         }
         document.getElementById("listagem").innerHTML = conteudo;
