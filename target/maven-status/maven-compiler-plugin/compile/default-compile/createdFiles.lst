@@ -1,0 +1,16 @@
+br\com\ithilh\bdpedidos\sistemapedidos\repository\MunicipioRepository.class
+br\com\ithilh\bdpedidos\sistemapedidos\SistemapedidosApplication.class
+br\com\ithilh\bdpedidos\sistemapedidos\controller\ProdutoController.class
+br\com\ithilh\bdpedidos\sistemapedidos\util\ModoBusca.class
+br\com\ithilh\bdpedidos\sistemapedidos\ServletInitializer.class
+br\com\ithilh\bdpedidos\sistemapedidos\model\Municipio.class
+br\com\ithilh\bdpedidos\sistemapedidos\repository\ProdutoRepository.class
+br\com\ithilh\bdpedidos\sistemapedidos\controller\MunicipioController.class
+br\com\ithilh\bdpedidos\sistemapedidos\model\Cliente.class
+br\com\ithilh\bdpedidos\sistemapedidos\repository\ClienteRepository.class
+br\com\ithilh\bdpedidos\sistemapedidos\model\Produto.class
+br\com\ithilh\bdpedidos\sistemapedidos\controller\EstadoController.class
+br\com\ithilh\bdpedidos\sistemapedidos\repository\EstadoRepository.class
+br\com\ithilh\bdpedidos\sistemapedidos\controller\EstadoRepository.class
+br\com\ithilh\bdpedidos\sistemapedidos\controller\ClienteController.class
+br\com\ithilh\bdpedidos\sistemapedidos\model\Estado.class
